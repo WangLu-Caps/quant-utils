@@ -1,0 +1,28 @@
+# Doxyfile for quant-utils
+# Generate HTML documentation from the public headers and sources.
+
+PROJECT_NAME           = "quant-utils"
+PROJECT_BRIEF          = "Small C++ library of quantitative-finance indicators (SMA, daily returns)"
+PROJECT_NUMBER         = 0.1.0
+OUTPUT_DIRECTORY       = docs
+
+INPUT                  = include src apps
+RECURSIVE              = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOC_MEMBERS     = NO
+BRIEF_MEMBER_DESC      = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_TIMESTAMP         = NO
+
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_MAN           = NO
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES

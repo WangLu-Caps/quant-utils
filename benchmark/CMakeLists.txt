@@ -1,0 +1,2 @@
+add_executable(bench_indicators bench_indicators.cpp)
+target_link_libraries(bench_indicators PRIVATE quant benchmark::benchmark)

@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+cmake-build-*/
+
+# Generated documentation
+docs/html/
+docs/latex/
+docs/xml/
+
+# IDE
+.vscode/
+.idea/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
